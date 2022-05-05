@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>
+        Tente abrir esse site em vários dispositivos diferentes ou simplesmente mude o tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/img-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/img-M.png" type="image/png">
+        <img src="Imagens/img-G.png" alt="Foto grande">
+    </picture>
+
+    <h1>Áudios</h1>
+    <p>
+        Clique no play para que o áudio comece a tocar.
+    </p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midias/Inspired - NEFFEX.mp3" type="audio/mp3">
+        <source src="midias/Inspired - NEFFEX.ogg" type="audio/ogg">
+        <p>
+            Infelizmente, seu navegador não consegue reproduzir áudios. <a href="midias/Inspired - NEFFEX.mp3">Clique aqui para baixar o arquivo de áudio em MP3</a>
+        </p>
+    </audio>
+    
+    <h1>Vídeos</h1>
+    <p>
+        Esse vídeo está hospedado no meu servidor.
+    </p>
+    <video width="500" poster="Imagens/limão.jpg" controls autoplay loop>
+        <source src="midias/meu-video.webm" type="video/webm">
+        <source src="midias/meu-video.mp4" type="video/mpe4">
+        <source src="midias/meu-video.ogx" type="video/ogg">
+    </video>
+    <p>
+        Caso o vídeo não tenha aberto, <a href="midias/meu-video.mp4" download="limão" type="video/mp4">clique aqui</a> para baixa-lo e ver eu seu proprio player.
+    </p>
+    <br>
+    <p>
+        Esse vídeo está em hospedagem externa.
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

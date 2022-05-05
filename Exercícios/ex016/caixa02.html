@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F9DBBD;
+        }
+
+        header{
+            background-color: rgb(245, 195, 130);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px;
+            box-shadow: 6px 4px 5px 3px black;
+        }
+
+        main{
+            background-color: white;
+            padding: 50px;
+            margin: 15px 30px;
+            height: 300px;
+            border-radius: 10px 10px 10px;
+        }
+
+        article{
+            background-color: lightgray;
+            width: 175px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        nav{
+            background-color: rgb(230, 141, 141);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            border: 3px solid black;
+            border-radius: 10px 20px;
+        }
+
+        nav > a{
+            display: none;
+        }
+
+        nav:hover > a{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <p>Menu</p>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ut quibusdam, et quis suscipit placeat eius amet fugiat omnis dolorum. Nam ratione cupiditate harum aspernatur odio, dolorum hic quisquam deleniti.</p>
+        </section>
+        <section id="noticias">
+            <h2>Notícia sobre o Brasil</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui eos corporis, asperiores blanditiis culpa alias incidunt maiores optio, sed cum quibusdam officiis neque amet reprehenderit, recusandae expedita corrupti hic ipsum!
+            </p>
+            <article>
+                <aside>
+                    <p>Artigo escrito por Fulano</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVídeo</p>
+    </footer>
+</body>
+</html>
