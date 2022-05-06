@@ -12,7 +12,7 @@ body{
     background-color: white;
     font-family: 'passion one', sans-serif;
     font-weight: normal;
-    min-height: 100%;
+    max-height: 100%;
     font-size: 1.5em;
 }
 
@@ -28,7 +28,7 @@ header > h1{
     margin: auto;
     font-variant: small-caps;
     font-weight: bold;
-    font-size: 6.8em;
+    font-size: 500%;
     width: 100%;
 }
 
@@ -79,9 +79,15 @@ a:hover{
 }
 
 footer{
-    height: 20px;
-    padding: 5px;
+    height: 10%;
+    padding: 5px 5px 0px 5px;
     background-color: black;
     text-align: center;
     color: white;
+}
+
+footer > p{
+    font-size: 70%;
+    margin: auto;
+    
 }
